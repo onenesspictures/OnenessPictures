@@ -1,20 +1,42 @@
-ONENESS PICTURES – Website
+ONENESS PICTURES — PRIVATE WEBSITE NOTICE
+========================================
 
-Dateien:
-- index.html
-- style.css
-- assets/ (hier deine echten Bilder und Logos einfügen)
+© 2026 ONENESS PICTURES. All Rights Reserved.
 
-Empfohlene Asset-Namen:
-- assets/cover-main.jpg
-- assets/cover-side-1.jpg
-- assets/cover-side-2.jpg
-- assets/project-1.jpg
-- assets/project-2.jpg
-- assets/project-3.jpg
-- assets/project-4.jpg
-- assets/project-5.jpg
+This website and all its contents are private property of ONENESS PICTURES.
+It is intended for personal and portfolio use only.
 
-Hinweis:
-Wenn du lieber dein eigenes Logo im Header nutzen willst, kannst du den Bereich .brand-mark
-in index.html einfach gegen ein <img src="assets/logo.png"> austauschen.
+--------------------------------------------------
+
+USAGE RESTRICTIONS
+
+Any unauthorized use, reproduction, distribution, modification,
+or publication of any part of this website is strictly prohibited.
+
+This includes but is not limited to:
+- Design and layout
+- Graphics and artworks
+- Code (HTML, CSS, JavaScript)
+- Text content
+- Branding elements
+
+--------------------------------------------------
+
+COPYRIGHT DISCLAIMER
+
+All materials on this website are protected by copyright and
+intellectual property laws.
+
+No part of this website may be copied, reproduced, or redistributed
+in any form without explicit written permission from ONENESS PICTURES.
+
+--------------------------------------------------
+
+LEGAL NOTICE
+
+Unauthorized use may result in legal action.
+
+--------------------------------------------------
+
+Contact:
+onenesspictures@gmail.com
