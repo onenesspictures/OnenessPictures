@@ -401,7 +401,7 @@ a {
     }
 
 .floating-left {
-    left: -10px;
+    left: -60px;
     bottom: 90px;
     transform: rotate(-7deg);
 }
