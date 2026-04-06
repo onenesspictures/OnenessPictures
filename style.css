@@ -975,7 +975,7 @@ a {
         z-index: 55;
     }
 
-    .socials {
+    .nav-right .socials {
         display: none !important;
     }
 
@@ -1022,5 +1022,101 @@ a {
 
     .menu-open .menu-toggle span:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+}
+.site-footer {
+    margin-top: 100px;
+    padding: 60px 0 20px;
+    background: #0a0a0b;
+    border-top: 1px solid var(--line);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.footer-brand h3 {
+    font-family: 'Antonio', sans-serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer-brand p {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.footer-links h4,
+.footer-social h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer-links a {
+    display: block;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+    .footer-links a:hover {
+        color: #fff;
+    }
+
+.footer-social .socials {
+    display: flex;
+    gap: 12px;
+}
+
+    .footer-social .socials a {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: rgba(255,255,255,0.02);
+        transition: 0.3s;
+        text-decoration: none;
+    }
+
+    .footer-social .socials svg {
+        width: 18px;
+        height: 18px;
+        color: #aaa;
+    }
+
+    .footer-social .socials a:hover {
+        background: rgba(255,255,255,0.08);
+        transform: translateY(-3px);
+        box-shadow: 0 0 12px rgba(255,255,255,0.15);
+    }
+
+        .footer-social .socials a:hover svg {
+            color: #fff;
+        }
+
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-secondary);
+    border-top: 1px solid var(--line);
+    padding-top: 20px;
+}
+
+@media (max-width: 900px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-social .socials {
+        justify-content: center;
     }
 }
