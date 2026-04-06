@@ -24,17 +24,36 @@
                 </div>
             </a>
 
-            <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false" type="button">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-
+            <!-- Menü (MITTIG!) -->
             <nav class="menu">
+                <a href="#top">START</a>
                 <a href="#projekte">PROJEKTE</a>
                 <a href="#services">SERVICES</a>
                 <a href="#kontakt">KONTAKT</a>
             </nav>
+
+            <!-- Rechts -->
+            <div class="nav-right">
+                <div class="socials" aria-label="Social Icons">
+                    <a href="https://instagram.com/onenesspictures" target="_blank" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7m0 2h10c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3m5 2.5A5.5 5.5 0 0 0 6.5 12A5.5 5.5 0 0 0 12 17.5A5.5 5.5 0 0 0 17.5 12A5.5 5.5 0 0 0 12 6.5m0 2A3.5 3.5 0 0 1 15.5 12A3.5 3.5 0 0 1 12 15.5A3.5 3.5 0 0 1 8.5 12A3.5 3.5 0 0 1 12 8.5m4.75-3.25a1.25 1.25 0 0 0-1.25 1.25a1.25 1.25 0 0 0 1.25 1.25a1.25 1.25 0 0 0 1.25-1.25a1.25 1.25 0 0 0-1.25-1.25Z" /></svg>
+                    </a>
+
+                    <a href="https://tiktok.com/@onenesspictures" target="_blank" aria-label="TikTok">
+                        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.5 2h2.5a5 5 0 0 0 5 5v2.5a7.5 7.5 0 0 1-5-1.75V15a5 5 0 1 1-5-5h.5v2.5h-.5a2.5 2.5 0 1 0 2.5 2.5V2Z" /></svg>
+                    </a>
+
+                    <a href="https://youtube.com/@onenesspictures" target="_blank" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M10 15l5.19-3L10 9v6m12-3c0-2.21-.18-3.54-.46-4.45-.35-1.12-1.23-2-2.35-2.35C18.28 5.18 16.95 5 12 5s-6.28.18-7.19.46c-1.12.35-2 1.23-2.35 2.35C2.18 8.72 2 10.05 2 12s.18 3.28.46 4.19c.35 1.12 1.23 2 2.35 2.35C5.72 18.82 7.05 19 12 19s6.28-.18 7.19-.46c1.12-.35 2-1.23 2.35-2.35.28-.91.46-2.24.46-4.19Z" /></svg>
+                    </a>
+                </div>
+
+                <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -208,13 +227,21 @@
                     <span class="section-kicker">Kontakt</span>
                     <h2>Bereit für dein nächstes Visual?</h2>
                     <p>
-                        Schreib mir über das Formular und erzähl kurz, worum es geht:
-                        Cover, Branding, Promo-Visuals oder ein komplettes Konzept.
+                        Schreib mir kurz, worum es geht – Cover, Branding, Promo-Visuals
+                        oder ein komplettes Konzept. Ich melde mich schnellstmöglich zurück.
                     </p>
+
+                    <div class="contact-direct-links">
+                        <a href="mailto:ONENESS.PICTURES@GMAIL.COM">ONENESS.PICTURES@GMAIL.COM</a>
+                        <a href="https://instagram.com/oneness.pictures" target="_blank" rel="noopener noreferrer">@ONENESS.PICTURES</a>
+                    </div>
                 </div>
 
                 <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="DEIN_WEB3FORMS_KEY_HIER">
+                    <input type="hidden" name="access_key" value="4d9f799e-b86f-462e-a93a-2e3f674454c7">
+                    <input type="hidden" name="subject" value="Neue Anfrage über ONENESS PICTURES">
+                    <input type="hidden" name="from_name" value="ONENESS PICTURES Website">
+                    <input type="checkbox" name="botcheck" class="hidden-botcheck" tabindex="-1" autocomplete="off">
 
                     <div class="form-grid">
                         <div class="form-group">
@@ -254,7 +281,7 @@
 
                     <div class="form-group">
                         <label for="subject">Betreff</label>
-                        <input type="text" id="subject" name="subject" placeholder="Worum geht es?" required>
+                        <input type="text" id="subject" name="project_subject" placeholder="Worum geht es?" required>
                     </div>
 
                     <div class="form-group">
@@ -262,7 +289,10 @@
                         <textarea id="message" name="message" rows="6" placeholder="Beschreibe dein Projekt, Stil, Wünsche und eventuell Referenzen..." required></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Anfrage senden</button>
+                    <div class="contact-form-actions">
+                        <button type="submit" class="btn btn-primary">Anfrage senden</button>
+                        <p class="form-note">Mit dem Absenden erklärst du dich damit einverstanden, dass deine Angaben zur Bearbeitung deiner Anfrage gespeichert werden.</p>
+                    </div>
                 </form>
             </div>
         </section>
