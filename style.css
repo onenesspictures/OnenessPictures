@@ -23,10 +23,11 @@ html {
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
-    background: var(--bg);
     color: var(--text);
     min-height: 100vh;
     overflow-x: hidden;
+    background: linear-gradient(rgba(0,0,0,0.72), rgba(0,0,0,0.88)), url("assets/background.jpg") center center / cover no-repeat fixed;
+    background-color: #050505;
 }
 
 img {
@@ -52,8 +53,9 @@ a {
 .page-gradient {
     position: fixed;
     inset: 0;
-    background: radial-gradient(circle at top left, rgba(255,255,255,0.08), transparent 28%), radial-gradient(circle at top right, rgba(255,255,255,0.05), transparent 24%), linear-gradient(180deg, #0b0b0c 0%, #050505 50%, #080808 100%);
+    background: radial-gradient(circle at top left, rgba(255,255,255,0.08), transparent 28%), radial-gradient(circle at top right, rgba(255,255,255,0.05), transparent 24%), linear-gradient(180deg, rgba(11,11,12,0.2) 0%, rgba(5,5,5,0.38) 50%, rgba(8,8,8,0.55) 100%);
     z-index: -2;
+    pointer-events: none;
 }
 
 .container {
